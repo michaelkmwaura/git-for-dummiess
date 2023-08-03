@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 1440px;
+    max-width: 100%;
+}
+
+#maindiv{
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    height: 500px;
+    width: 300px;
+    border-radius: 15px;
+    position: relative;
+    top: 10vh;
+    font-family: "Outfit", sans-serif;
+}
+
+#mainimg{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#mainimg:hover{
+    
+}
+
+#title{
+    padding: 20px 0;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+#title:hover{
+    color: cyan
+}
+
+#description{
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 20px; 
+    color: hsl(215, 51%, 70%);
+}
+
+.left{
+    color: hsl(178, 100%, 50%);
+    text-align:center;
+    font-weight: 400;
+    align-items: center;
+    font-style: normal;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.right{
+    color:hsl(215, 51%, 70%);
+    position: relative;
+    left: 80px;
+    font-weight: 400;
+}
+
+#avatar{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 20px;
+}
+
+#thirdinfo{
+    padding-bottom: 10px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+#id{
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(215, 51%, 70%)
+}
+
+#id > span{
+    color: white;
+    transition: 0.5s;
+}
+
+#id > span:hover{
+    color: cyan;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    position: absolute;
+    top: 95vh;
+    }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
